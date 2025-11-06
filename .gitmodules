@@ -4,3 +4,7 @@
 [submodule "client"]
 	path = client
 	url = https://github.com/group-h-security/client
+[submodule "certificateService"]
+	path = certificateService
+	url = https://github.com/group-h-security/certificateService
+	branch = main
