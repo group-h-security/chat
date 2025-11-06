@@ -1,9 +1,11 @@
 [submodule "server"]
 	path = server
 	url = https://github.com/group-h-security/server
+	branch = main
 [submodule "client"]
 	path = client
 	url = https://github.com/group-h-security/client
+	branch = main
 [submodule "certificateService"]
 	path = certificateService
 	url = https://github.com/group-h-security/certificateService
