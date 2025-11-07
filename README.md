@@ -4,12 +4,8 @@ encrypted chat application built with java and sockets
 
 ## How to Clone
 
-git clone --recurse-submodules https://github.com/group-h-security/chat
+Fresh Clone Setup (Composite Build)
 
-cd chat
+Follow these steps on a new machine to get the chat master build + all sub-repos working.
 
-git submodule update --init --recursive
-
-
-
-\\just adding a line to test push abilitiy
+1) Clone (with submodules)
