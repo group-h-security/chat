@@ -1,5 +1,5 @@
 rootProject.name = "chat"
 
-includeBuild("../client")
-includeBuild("../certificateService")
-includeBuild("../server")
+includeBuild("./client")
+includeBuild("./certificateService")
+includeBuild("./server")
