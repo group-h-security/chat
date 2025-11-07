@@ -1,12 +1,12 @@
 [submodule "server"]
 	path = server
-	url = https://github.com/group-h-security/server
-	branch = main
+	url = https://github.com/group-h-security/server.git
+	branch = proto
 [submodule "client"]
 	path = client
-	url = https://github.com/group-h-security/client
+	url = https://github.com/group-h-security/client.git
 	branch = main
 [submodule "certificateService"]
 	path = certificateService
-	url = https://github.com/group-h-security/certificateService
+	url = https://github.com/group-h-security/certificateService.git
 	branch = main
