@@ -10,3 +10,8 @@ build/
 
 # Ignore Gradle build output directory
 build
+/certificateService/.venv/
+/certificateService/logs/flask.pid
+/certificateService/logs/flask.out
+/certificateService/logs/flask.err
+/certificateService/CertsAndKeys/PrivateKeys/root.key

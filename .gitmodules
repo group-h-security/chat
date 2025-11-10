@@ -1,7 +1,7 @@
 [submodule "server"]
 	path = server
 	url = https://github.com/group-h-security/server.git
-	branch = proto
+	branch = main
 [submodule "client"]
 	path = client
 	url = https://github.com/group-h-security/client.git
