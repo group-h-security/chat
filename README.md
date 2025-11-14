@@ -32,6 +32,6 @@ Manual Install
 11. Wait for startup
 12. Open new terminal tab and run client with `./gradlew run --console=plain`
 13. For additional clients, repeat `./gradlew run --console=plain` in new tabs
-14. Docker images (Server and CAServer):
-    `docker pull ghcr.io/group-h-security/server:latest`
-    `docker pull ghcr.io/group-h-security/caserver:latest`
+14. Docker images (Server and CAServer):  
+    `docker pull ghcr.io/group-h-security/server:latest`  
+    `docker pull ghcr.io/group-h-security/caserver:latest`  
