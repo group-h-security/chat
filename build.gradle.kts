@@ -37,6 +37,13 @@ val clientRun by tasks.registering {
     mustRunAfter(serverRun)
 }
 
+val flaskRun by tasks.registering {
+    group = "infra"
+    description = "Run the Flask server first"
+    dependsOn(gradle.includedBuild("certificateService").task(":flaskRun"))
+
+}
+
 // 4) Top-level orchestration
 tasks.register("runAll") {
     group = "infra"
