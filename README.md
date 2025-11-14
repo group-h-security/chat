@@ -4,6 +4,21 @@ encrypted chat application built with java and sockets
 
 Installation Manual
 
+---
+
+*4 STEP INSTALLATION AND RUN WITH HOSTED SERVER (chat.ryansheridan.dev)*
+
+```bash
+git clone https://github.com/group-h-security/client/
+cd client
+export SERVER_IP=chat.ryansheridan.dev
+./gradlew run --console=plain
+```
+
+---
+
+Manual Install
+
 1. Stop current Flask CA server with `./gradlew :certificateService:flaskStop`
 2. `cd chat/certificateService`
 3. `source venv/bin/activate`
